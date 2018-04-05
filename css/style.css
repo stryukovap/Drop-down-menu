@@ -5,30 +5,38 @@
     outline: 1px solid red;
     display: inline-block;
     position: relative;
-    padding: 10px;
+    background-color: #5389a5;
+    
 }
 .main_menu>li:hover .sub_menu{
     display: block;
+    background-color: #6fa5c0;
 }
 .sub_menu>li{
     list-style: none;
     /* margin: 0; */
     /* padding: 0; */
     outline: 1px solid palevioletred;
-    width: 150px;
-    padding: 10px;
+    width: 200px;
+    
 }
 .sub_menu_item>a{
     outline: 1px solid green;
+    padding: 10px;
+    display: block;
+    text-align: left;
 }
 .main_menu_item>a{
     outline: 1px solid purple;
+    padding: 10px;
+    display: block;
+    text-align: left;
 }
 .main_menu_item:hover{
-    background-color: yellow;
+    background-color: #6fa5c0;
 }
 .sub_menu_item:hover{
-    background-color: skyblue;
+    /* background-color: skyblue; */
 }
 .main_menu .sub_menu{
     display: none;
